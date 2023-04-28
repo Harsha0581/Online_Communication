@@ -1,0 +1,511 @@
+*{
+    margin: 0px;
+}
+::-webkit-scrollbar{
+    width:0px;
+    cursor:pointer;
+    /* display:none; */
+}
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(transparent, white);
+    border-radius: 10px;
+    cursor: pointer;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display:inline-block;
+}
+ul li a{
+    color:white;
+    padding: 10px;
+    padding-bottom:20px;
+}
+#akmhidder{
+    color:aliceblue;
+    text-align: center;
+    margin-top: 30px;
+}
+.forgotpassword{
+    margin-top: 50px;
+    margin-left:50px;
+}
+#akmbody{
+    background:  linear-gradient(90deg, rgb(121, 206, 173), rgb(218, 151, 151));
+}
+.form-control{
+    width: 250px;
+}
+#akmid:focus,#akmusername:focus,#akmAccount_password:focus,#akmidpassword:focus{ 
+    background-color:rgb(121, 206, 173);
+    color:whitesmoke;
+    height: 50px;
+}
+#akmlogin{
+    margin-top: 10px;
+}
+#akm_maindiv{
+    margin-left: 490px;
+    margin-top:80px;
+    text-align: justify;;
+    border: solid black;
+    padding: 30px;
+    width:300px;
+    color:aliceblue;
+    border-radius: 20%;
+    border-left: solid rgb(218, 151, 151);
+    border-right: solid  rgb(121, 206, 173);
+    border-top:solid white;
+}
+#akmpassword{
+    cursor: pointer;
+}
+.akmchangepassword{
+    right:0;
+    float: right;
+    color:black;
+}
+#akmbody1{
+    position:relative;
+    background:  linear-gradient(90deg, rgb(121, 206, 173), rgb(218, 151, 151));
+    content:"";
+}
+#akm_sid_nav{
+    background:linear-gradient(140deg,rgb(145, 171, 187), rgb(13, 59, 96));
+    width: fit-content;
+    position:fixed;
+    top:0;
+    height:calc(100vh - 20px);
+    padding-top: 10px;
+    padding-right: 40px;
+    z-index: 1;
+    overflow-x: hidden;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-bottom:3px;
+    border-radius: 10px 10px 10px 10px;
+    display: none;
+}
+#sid_bar_cancle{
+    position:absolute;
+    top:20px;
+    right:30px;
+    font-size: 40px;
+    color:whitesmoke;
+}
+#sid_bar_cancle:hover{
+    cursor: pointer;
+    color:crimson;
+}
+#sid_bar_header{
+    margin-top:30px;
+    color:rgb(204, 228, 228);
+}
+#sid_bar_header h1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color:black;
+}
+#sid_akm_ol{
+    list-style-type: none;
+    overflow: hidden;
+    display: block;
+    float: left;
+}
+#sid_bar_akm{
+    padding-top: 40px; 
+}
+#sid_bar_a{
+    color:rgb(9, 9, 9);
+    text-decoration: none;
+}
+#sid_bar_a:hover{
+    cursor: pointer;
+    color:rgb(246, 242, 242);
+    background:linear-gradient(140deg , rgb(59, 149, 154), rgb(117, 140, 189));
+    width: 30px;
+    height: 30px;
+    padding:10px;
+    border-radius: 10px;
+}
+#akm_main_body{
+    position:relative;
+}
+#akm_main_header{
+    border-bottom:9px solid rgb(96, 171, 96);
+    border-top:9px solid rgb(143, 153, 210);
+    border-left: 9px solid rgb(217, 217, 140);;
+    border-right: 9px solid rgb(180, 153, 158);
+    content:"";
+    left:10px;
+    top:10px;
+    position:absolute;
+    width:20px;
+    height:30px;
+    border-radius: 30px;
+}
+#akm_main_header1{
+    border-bottom:9px solid rgb(96, 171, 96);
+    border-top:9px solid rgb(143, 153, 210);
+    border-left: 9px solid rgb(180, 153, 158);
+    border-right: 9px solid rgb(217, 217, 140);
+    content:"";
+    left:38px;
+    top:10px;
+    position:absolute;
+    width:20px;
+    height:30px;
+    border-radius: 30px;
+}
+#akm_main_header_message{
+    position:absolute;
+    top :10px;
+    left: 80px;
+    font-size:30px;
+}
+#akm_body_content{
+    position:relative;
+    top:85px;
+    left:10px;
+    cursor: pointer;
+}
+#akm_main_tittle::first-letter{
+    color:rgb(8, 8, 8);
+}
+#akm_main_tittle{
+    color:rgb(12, 12, 12);
+}
+#akmpage_image{
+    height:40px;
+    width:40px;
+    border-bottom:6px solid rgb(96, 171, 96);
+    border-top:6px solid rgb(143, 153, 210);
+    border-left: 6px solid rgb(180, 153, 158);
+    border-right: 6px solid rgb(217, 217, 140);
+    content:"";
+    border-radius: 30px;
+}
+#secoundtag{
+    position:sticky;
+    position:-webkit-sticky;
+    top:0;
+    background:  linear-gradient(901deg,whitesmoke,black);
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 0px 10px 10px;
+    overflow: hidden;
+}
+#akm_content_message{
+   padding-left:06px;
+   padding-right: 06px;
+   padding-top:4px;
+   border:3px solid rgb(214, 187, 206);
+   margin:3px;
+   height:calc(100vh - 170px);
+   overflow:auto;
+   position:-webkit-sticky;
+   border-radius: 15px;
+}
+#akm_span{
+    font-size:large;
+}
+#akm_message_image{
+    border-radius: 70%;
+    text-align:justify;
+    filter: brightness(80%);
+    mix-blend-mode: color-burn;
+}
+#akm_table_message, #akm_table_time, #akm_table_report, #akm_table_username{
+    width:300vh;
+    padding-right:1px;
+    word-wrap: break-word;
+    cursor: pointer;
+   
+}
+#akm_table{
+    border-collapse: collapse;
+}
+#message_body{
+    text-decoration: none;
+    color:black;
+}
+.akm_table_tr{
+    border-bottom:0.1em solid rgb(229, 158, 158);
+}
+.akm_table_tr:hover{
+    background:linear-gradient(40deg,rgb(148, 139, 139), rgb(200, 187, 187));
+    border-radius: 10px;
+}
+.report_spam{
+    font-size:25px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.report_message_cont{
+    display:none;
+    font-size: x-small;
+    float: left;
+}
+.report_spam:hover .report_message_cont{
+    display:block;
+}
+.report_spam:hover{
+    border:solid gold;
+    background-color:gold;
+    background-attachment: center;
+    border-radius: 60%;
+    filter:brightness(130%)
+}
+#sendAKmessage{
+    position:absolute;
+    bottom: 70px;
+    right:20px;
+    font-size: xx-large;
+    background: linear-gradient(30deg, rgb(156, 156, 205), rgb(131, 211, 160));
+    padding:10px;
+    border-radius: 20%;
+    text-decoration:none;
+}
+#sendAKmessage:hover{
+    background: linear-gradient(30deg, rgb(152, 152, 165), rgb(138, 221, 168));
+    text-decoration: underline;
+}
+#send_ak_message{
+    border:2px solid black;
+    width:500px;
+    height:480px;
+    position:absolute;
+    top:60px;
+    right:15px;
+    background:linear-gradient(180deg, rgb(237, 240, 241), rgb(117, 155, 117));
+    border-radius: 5%;
+    display:none;
+}
+#akm_header_text_box{
+    position:absolute;
+    top: 10px;
+    left:200px;
+    color: rgb(82, 201, 127);
+}
+#akm_header_text_box:hover{
+    text-decoration: underline;
+    text-decoration:overline;
+    color:rgb(87, 145, 196);
+}
+#To_akm_id{
+    position:absolute;
+    top:40px;
+    border:none;
+    border-bottom: 2px solid;
+    background-color: rgb(180, 207, 216);
+    width: 437px;
+    height:20px;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+#To_akm_id:focus{
+    border: none;
+}
+#akm_subject_text{
+    position:absolute;
+    top:100px;
+    margin-left: 10px;
+    border-radius: 10px 10px 0px 0px;
+    border:none;
+    border-bottom:2px solid;
+    resize:none;
+    width: 437px;
+    padding:10px;
+    background:linear-gradient(180deg, rgb(237, 240, 241), rgb(117, 155, 117));
+}
+#ak_message{
+    position:absolute;
+    top: 170px;
+    border:none;
+    border-bottom:2px solid;
+    padding-left: 10px;
+    padding-top: 10px;
+    resize: none;
+    background:linear-gradient(180deg, rgb(237, 240, 241), rgb(210, 231, 210));
+    margin-left:10px;
+    border-radius: 10px 10px 0px 0px;
+}
+#akm_footer{
+    position:absolute;
+    top:360px;
+    resize: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px 10px 0px 0px;
+    border:none;
+    border-bottom: 2px solid;
+}
+#akm_cancle_message{
+    position:absolute;
+    top:2px; 
+    right:20px;
+    font-size:33px;
+    cursor:pointer;
+}
+#akm_message_submit{
+    position:absolute;
+    bottom:14px;
+    width:130px;
+    background:linear-gradient(180deg, rgb(37, 110, 134), rgb(37, 40, 41));
+    border:none;
+    color:whitesmoke;
+    border-radius: 5px;
+}
+#akm_message_submit:hover{
+    background:linear-gradient(180deg, rgb(107, 135, 145), rgb(79, 85, 87));
+}
+#div_akm_message_submit{
+    background:linear-gradient(180deg, rgb(237, 240, 241), rgb(110, 207, 215));
+    width: 350px;
+    border-radius: 20px;
+    height: 30px;
+    position:absolute;
+    bottom: 10px;
+    padding:10px;
+    left:70px;
+}
+#ak_message_from{
+    width: max-content;
+    /* border:1px solid; */
+    padding:3px;
+    cursor:pointer;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+#down_arrow{
+    padding-left: 7px;
+    padding-right: 4px;
+}
+#from_paragra{
+    margin-left: 10px;
+}
+#ak_message_from_content{
+    width: fit-content;
+    display:none;
+    border:1px solid;
+    padding:14px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#akm_spam_header{
+    text-decoration: underline;
+    color:cadetblue;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+#ak_message_subject{
+    margin:20px;
+    width:350px;
+    word-wrap: break-word;
+    position:static;
+}
+#ak_message_subject_text{
+    padding-bottom: 5px;
+}
+#ak_message_MMS_text{
+    margin-left: 20px;
+    width: 700px;
+    word-wrap: break-word;
+}
+#ak_message_footer{
+   width:800px;
+   word-break: break-all;
+   margin-left: 20px;
+   margin-top: 40px;
+}
+#footer_first_div{
+    position:absolute;
+    bottom:10px;
+    right:0px;
+    margin-right:5px;
+    width:400px;
+    height: 50px;
+    background: linear-gradient(70deg, rgb(149, 141, 141), rgb(94, 80, 80));
+    border:1px solid;
+    border-radius: 20px 20px 17px 20px;
+}
+#forword_ak_message{
+    color:aliceblue;
+    position:absolute;
+    left:110px;
+    top:15px;
+}
+#replay_ak_message{
+    color:aliceblue;
+    position:absolute;
+    left:230px;
+    top:15px;
+}
+#forword_ak_message:hover, #replay_ak_message:hover{
+    color:aqua;
+    cursor: pointer;
+}
+#spam_report{
+    content:"";
+    border-radius: 20%;
+    position:absolute;
+    left:380px;
+    top:185px;
+}
+#spanhover{
+    display:none;
+    position:absolute;
+    top:0px;
+}
+.cont{
+    padding-right: 10px;
+}
+
+
+            /* change password */
+
+.maindiv_cgp{
+    background: linear-gradient(89deg,rgb(96, 158, 147), rgb(88, 136, 164), rgb(46, 83, 104), rgb(46, 46, 58));
+}
+#cp_main_div{
+    border-left:1px solid blue;
+    border-top:1px solid violet;
+    border-right: 1px solid green;
+    border-bottom:1px solid red;
+    width:fit-content;
+    height: fit-content;
+    margin-left: 20%;
+    margin-top: 10%;
+    padding-top:30px;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+.button{
+    margin-top: 10px;
+}
+.cg_header2{
+    color:whitesmoke;
+    font-size: 30px;
+}
+.cg_header2:first-letter{
+    font-size: 40px;
+}
+.cg_header2:first-letter{
+    font-size: 40px;
+}
+#form-report{
+    position:absolute;
+    top:180px;
+    left: 340px;
+}
+#symbol3{
+    position:absolute;
+    top:182px;
+    left:460px;
+}

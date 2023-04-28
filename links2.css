@@ -1,0 +1,1055 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* mobile phone */
+@media only screen and (max-width:600px) {
+    ::-webkit-scrollbar{
+        width:6px;
+        cursor:pointer;
+        /* display:none; */
+    }
+    ::-webkit-scrollbar-thumb{
+        background:linear-gradient(transparent, white);
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    #hide{
+        background: linear-gradient(1000deg ,rgb(96, 169, 181),rgb(65, 174, 116),rgb(200, 200, 115), gray);
+        color:black;
+    }
+    #profile-details{
+        color:black;
+    }
+    #header{
+        background-color: aqua;
+        background: linear-gradient(1000deg ,rgb(96, 169, 181),rgb(65, 174, 116),rgb(200, 200, 115), gray);
+    }
+    #header h2{
+        padding: 30px 0px 0px 10px;
+        color:black;    
+        width: fit-content;            
+    }
+    #header h2:hover{
+        text-decoration: overline pink;
+        color:black;
+    }
+    #header a{
+        float: right;
+        padding-right:9px;
+        font-size: 17px;
+        color:cadetblue;  
+        text-decoration:none;
+    }
+    #header a:hover{
+        text-decoration: underline;
+        color:black;
+    }
+    #navbar ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        animation: anim 0.5s infinite ease-in-out;
+        border-radius: 0px 0px 8px 8px;
+        background: linear-gradient(1000deg ,rgb(96, 169, 181),rgb(65, 174, 116),rgb(200, 200, 115), gray);
+    }
+    #navbar ul li{
+        float: left;
+    }
+    #navbar ul li a{
+        display: block;
+        color: rgb(60, 5, 5);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    #navbar ul li a:hover{
+        color:black;
+        text-decoration:underline rgb(182, 164, 164);
+        background-color: beige;
+        border-radius: 10px;
+        border: -10px black;
+        
+    }
+    #frame{
+        padding:20px;
+        grid-template-columns: auto auto;
+    }
+    #userimages{
+        height: 100px;
+        width:100px;
+        border-radius:60px;
+        padding-left: 10px;
+    }
+    #imageupload{
+        background-color: aqua;
+        border-radius: 6px;
+        border: 1px solid green;
+    }
+    #formgroup{
+        border:  2px solid rgb(223, 167, 167);
+        width: 300px;
+        height: 100px;
+        padding-top: 10px;
+        padding-left: 10px;
+        border-radius: 10px;
+    }
+    #submitup{
+        padding-top: 10px;
+    }
+    #submitimage{
+        width: 100px;
+        background-color: aquamarine;
+        border:none;
+        height:30px;
+        border-radius: 10px;
+    }
+    #submitimage:hover{
+        background-color: black;
+        border-color:aliceblue;
+        color:yellow;
+    }
+    #name{
+        color: rgb(7, 7, 7);
+        font-size: 14px;
+    }
+    .about{
+        padding:30px;
+  
+    }
+    #aboutsubmit{
+        width: 100px;
+        background-color: aquamarine;
+        border:none;
+        height:30px;
+        border-radius: 10px;
+    }
+    #aboutsubmit:hover{
+        background-color: black;
+        border-color:aliceblue;
+        color:yellow;
+    }
+    #about{
+        border-radius: 10px;
+        border: 2px solid rgb(78, 199, 123);
+        text-align: center;
+    }
+    #hiiimage:hover{
+        font-size: 35px;
+        float:right;
+        cursor: pointer;
+    }
+    #streckupperdiv{
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    #streckId{
+        width:100px;
+        height: 100px;
+        border:10px solid rgb(88, 213, 193);
+        box-shadow: 8px 8px rgb(238, 193, 193);
+    }
+    #userimages2{
+        width: 400px;
+        height: 300px;
+        text-align: center;
+        border:20px solid rgb(193, 78, 78);
+        border-radius: 10px;
+        box-shadow: 18px 18px 18px 18px rgb(215, 158, 158);
+    }
+    #bigimage2{
+        padding-top: 130px;
+        padding-left: 440px;
+    }
+    #bigimage1{
+        display:none;
+    }
+    #contactadd{
+        padding-left: 20px;
+        padding-top:10px;
+    }
+    #requestfream{
+        padding-top:70px;
+        background-color: rgb(36, 199, 153);
+        border-radius: 10px;
+        height:300px;
+        width:400px;
+        border: 4px solid rgb(0, 220, 84);
+        box-shadow: 2px 2px 4px 4px red;
+    }
+    #requestfream p{
+        padding-left: 40px;
+        color:rgb(255, 255, 255);
+    }
+    #reqsubmit{
+        width:100px;
+        height:30px;
+        float:right;
+    }
+    #contactlist{
+        height:350px;
+        width:890px;
+        padding-left:7px;
+        border-radius: 15px;
+    }
+    #call{
+        padding-top: 0px;
+        height: 320px;
+        overflow:auto;
+        /* position:relative; */
+    }
+    .divname{
+       top:0px;
+        position:sticky;
+        background: linear-gradient(100deg, hsla(158, 92%, 5%, 0.719),  crimson);
+        padding-left: 20px;
+        height:20px;
+        border-radius: 10px 10px;
+    }
+    .rimage{
+        height:40px;
+        width:40px;
+        border-radius:10px;
+    }
+    #rsubmit{
+        color:black;
+        border-radius: 7px;
+        border:0.9px solid black;
+    }
+    #rsubmit1{
+        color:black;
+        border-radius: 7px;
+        border:0.9px solid black;
+    }
+    #rsubmit:hover{
+        background-color: green;
+        color:white;
+        width:130px;
+        border:none;
+        border-radius: 10px;
+    }
+    #rsubmit1:hover{
+        background-color: rgb(246, 13, 13);
+        color:white;
+        width:130px;
+        border:none;
+        border-radius: 10px;
+    }
+    #requestpara{
+        font-size: 12px;
+        cursor: pointer;
+        font-weight: bolt;
+        color:black;
+    }
+    /* #strecknum{
+        display:none;
+    }
+    #strecknum .rimage:hover{
+        display:block;
+        cursor: pointer;
+    } */
+    pg{
+       background-color:chartreuse;
+    }
+    .chatting_button{
+        padding:7px 9px 7px 9px;
+        background-color: bisque;
+        text-decoration: none;
+        color:black;
+        border-radius: 10px;
+        border:1px solid black;
+    }
+    .chatting_button:hover{
+        background-color: green;
+        text-decoration:none;
+        cursor: pointer;
+        color:aliceblue;
+    }
+    #chatting_header{
+        padding:10px;
+        background-color: rgb(46, 204, 204);
+        text-align: center;
+        border:2px solid black;
+        border-radius:6px 9px 12px 15px;
+        opacity: 0.1px;
+        background: linear-gradient(100deg, white,black,crimson,crimson, black,white);
+        animation:cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    }
+    #alertmessage{
+        width:600px;
+        height:150px;
+        padding-top: 30px;
+        background-color: hsla(159, 96%, 48%, 0.719);
+        border:4px  solid rgb(194, 204, 155);
+        border-radius: 50%/50%;
+        color:rgb(235, 225, 225);
+        background: linear-gradient(100deg, hsla(158, 92%, 5%, 0.719),  crimson);
+    }
+    #alertboxcpage{
+        padding-top: 220px;
+    }
+    #chattinguserimage{
+        width: 110px;
+        height:50px;
+        float: left;
+        border-color: aqua;
+        border-radius:10px;
+        filter: brightness(180%);
+        cursor: pointer;
+    }
+    #persionid{
+        padding-top: 20px;
+        /* animation: anim 2.5s infinite ease-in-out; */
+        color:darkgrey
+    }
+    @keyframes anim {
+        0%{
+            background-position: 1 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 1 50%;
+        }
+    }
+    #chattinguserimage1{
+        width: 110px;
+        height:50px;
+        float: right;
+        border-color: aqua;
+        border-radius:10px;
+        filter: brightness(180%);
+        cursor: pointer;
+    }
+    #bpersionid{
+        float:left;
+        padding-top: 20px;
+        color:rgb(169, 215, 169);
+    }
+    body{
+        background: linear-gradient(100deg, hsla(158, 92%, 5%, 0.719),  crimson);
+        color:aliceblue;
+        height:100vh;
+    }
+    #buserpro{
+        display: none;
+    }
+    #buserprofile:hover #buserpro{
+        display: block;
+    }
+    .navprofile a{
+        color:whitesmoke;
+
+    }
+    #chatting_b_profile_image{
+        width: 110px;
+        height:50px;
+        border-color: aqua;
+        border-radius:10px;
+        filter: brightness(180%);
+        cursor: zoom-in;
+    }
+    #b_image{
+        padding-top: 120px;
+    }
+    #b{
+        color:black;
+
+    }
+    #buser_profile{
+        display:none;
+    }
+    .navprofile a:hover{
+        color:chartreuse;
+        cursor: pointer;
+    }
+    #back{
+        color:chartreuse;
+        cursor: pointer;
+    }
+    #zoomout{
+        width:500px;
+        border-radius: 15%;
+        cursor: zoom-out;
+        display:none;
+    }
+    #bigimage{
+        padding-left: 360px;
+        padding-top: 120px;
+        display: none;
+    }
+    #contact_list_inchatting{
+        /* border:2px solid rgb(8, 8, 8); */
+        width:320px;
+        height: 467px;
+        border-radius: 15px;
+        padding:10px;
+        background:linear-gradient(0.1deg, rgb(91, 106, 155), rgb(184, 215, 221));
+        overflow: auto;
+    }
+    #contact_list{
+        padding-top:10px;
+        padding-left:10px;
+    }
+    #contact_list p{
+        color:rgb(13, 13, 13);
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    #messagebox1{
+        border:3px solid black;
+        height: 390px;
+        width:930px;
+        border-radius: 15px;
+        background:linear-gradient(80deg, white, black);
+        overflow-y: auto;
+    }
+    #textbox{
+      resize: none;
+      color:black;
+      width:800px;
+      border-radius: 10px;
+      height: 60px;
+      border:2px solid black;
+      padding-left:20px;
+      padding-right:20px;
+    }
+    #textbox:focus{
+        border-color:2px rgb(5, 83, 160);
+    }
+    .form-group{
+        padding-top: 10px;
+    }
+    #sendbutton{
+        width:80px;
+        padding:20px;
+        color:black;
+        border: 1px solid black;
+        border-radius: 10%;
+    }
+    #message_span{
+        color:red;
+        display:none;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+   .message_div{
+        margin:20px;
+        position:relative;
+        background: linear-gradient(90deg, rgb(219, 194, 227),  rgb(147, 75, 171));
+        padding:9px;
+        word-break: break-all;
+        max-width:400px;
+        border-bottom: 30px;
+        border-top:20px;
+        border-radius: 20px 20px 0px 20px;
+        right:0;
+        margin-left:auto;
+    }
+    .message_div p, .message_time{
+        margin-left: 10px;
+    }
+    .message_div1 p ,.message_time1{
+        margin-left: 10px;
+    }
+    .message_time{
+        text-align: right;
+        /* position:absolute; */
+        color: blanchedalmond;
+        font-size: 1em;
+    }
+    .message_div1{
+        margin:20px;
+        position:relative;
+        background: linear-gradient(90deg, rgb(147, 75, 171), rgb(147, 75, 171), white);
+        padding:9px;
+        word-break: break-all;
+        max-width:300px;
+        border-bottom: 30px;
+        border-top:20px;
+        border-radius: 20px 20px 20px 0px;
+        right:0;
+        margin-right:auto;
+    }
+    .message_time1{
+        text-align: justify;
+        color: blanchedalmond;
+        font-size: 1em;
+    }
+    .notifications{
+        position:relative;
+        margin-left:10px;
+        margin-top: 16px;
+        border-radius: 10px;
+        width:300px;
+        background:linear-gradient(100deg,rgb(195, 104, 213), gray);
+        display:none;
+    }
+    .notifications:nth-child(even){
+       
+        background:linear-gradient(100deg,rgb(224, 173, 234), rgb(183, 176, 176));
+    }
+    .notifications1{
+        position:relative;
+    }
+    #cancal{
+        position:absolute;
+        right:0;
+        padding-right: 10px;
+        color:seashell;
+        cursor: pointer;
+        font-size: medium;
+    }
+    .notifications p{
+        margin-left: 10px;
+        padding-top:20px;
+        color:seashell;
+        word-break: break-all;
+    }
+    #notification_username{
+        position:absolute;
+        margin-left: 10px;
+        font-size: 0.7em;
+        cursor:pointer;
+    }
+    #notification_time{
+        margin-right: 10px;
+        font-size: 0.7em;
+        right:0;
+        position:absolute;
+        color:whitesmoke;
+    }
+    #total_message{
+        background-color: aqua;
+        max-width: 30px;
+        margin-left: 10px;
+        border-radius: 10px;
+        font-size: 1em
+    }
+}
+@media only screen and (min-width:600px) {
+    ::-webkit-scrollbar{
+        width:6px;
+        cursor:pointer;
+        /* display:none; */
+    }
+    ::-webkit-scrollbar-thumb{
+        background:linear-gradient(transparent, white);
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    #hide{
+        background: linear-gradient(1000deg ,rgb(96, 169, 181),rgb(65, 174, 116),rgb(200, 200, 115), gray);
+        color:black;
+    }
+    #profile-details{
+        color:black;
+    }
+    #header{
+        background-color: aqua;
+        background: linear-gradient(1000deg ,rgb(96, 169, 181),rgb(65, 174, 116),rgb(200, 200, 115), gray);
+    }
+    #header h2{
+        padding: 30px 0px 0px 10px;
+        color:black;    
+        width: fit-content;            
+    }
+    #header h2:hover{
+        text-decoration: overline pink;
+        color:black;
+    }
+    #header a{
+        float: right;
+        padding-right:9px;
+        font-size: 17px;
+        color:cadetblue;  
+        text-decoration:none;
+    }
+    #header a:hover{
+        text-decoration: underline;
+        color:black;
+    }
+    #navbar ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        animation: anim 0.5s infinite ease-in-out;
+        border-radius: 0px 0px 8px 8px;
+        background: linear-gradient(1000deg ,rgb(96, 169, 181),rgb(65, 174, 116),rgb(200, 200, 115), gray);
+    }
+    #navbar ul li{
+        float: left;
+    }
+    #navbar ul li a{
+        display: block;
+        color: rgb(60, 5, 5);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    #navbar ul li a:hover{
+        color:black;
+        text-decoration:underline rgb(182, 164, 164);
+        background-color: beige;
+        border-radius: 10px;
+        border: -10px black;
+        
+    }
+    #frame{
+        padding:20px;
+        grid-template-columns: auto auto;
+    }
+    #userimages{
+        height: 100px;
+        width:100px;
+        border-radius:60px;
+        padding-left: 10px;
+    }
+    #imageupload{
+        background-color: aqua;
+        border-radius: 6px;
+        border: 1px solid green;
+    }
+    #formgroup{
+        border:  2px solid rgb(223, 167, 167);
+        width: 300px;
+        height: 100px;
+        padding-top: 10px;
+        padding-left: 10px;
+        border-radius: 10px;
+    }
+    #submitup{
+        padding-top: 10px;
+    }
+    #submitimage{
+        width: 100px;
+        background-color: aquamarine;
+        border:none;
+        height:30px;
+        border-radius: 10px;
+    }
+    #submitimage:hover{
+        background-color: black;
+        border-color:aliceblue;
+        color:yellow;
+    }
+    #name{
+        color: rgb(7, 7, 7);
+        font-size: 14px;
+    }
+    .about{
+        padding:30px;
+  
+    }
+    #aboutsubmit{
+        width: 100px;
+        background-color: aquamarine;
+        border:none;
+        height:30px;
+        border-radius: 10px;
+    }
+    #aboutsubmit:hover{
+        background-color: black;
+        border-color:aliceblue;
+        color:yellow;
+    }
+    #about{
+        border-radius: 10px;
+        border: 2px solid rgb(78, 199, 123);
+        text-align: center;
+    }
+    #hiiimage:hover{
+        font-size: 35px;
+        float:right;
+        cursor: pointer;
+    }
+    #streckupperdiv{
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    #streckId{
+        width:100px;
+        height: 100px;
+        border:10px solid rgb(88, 213, 193);
+        box-shadow: 8px 8px rgb(238, 193, 193);
+    }
+    #userimages2{
+        width: 400px;
+        height: 300px;
+        text-align: center;
+        border:20px solid rgb(193, 78, 78);
+        border-radius: 10px;
+        box-shadow: 18px 18px 18px 18px rgb(215, 158, 158);
+    }
+    #bigimage2{
+        padding-top: 130px;
+        padding-left: 440px;
+    }
+    #bigimage1{
+        display:none;
+    }
+    #contactadd{
+        padding-left: 20px;
+        padding-top:10px;
+    }
+    #requestfream{
+        padding-top:70px;
+        background-color: rgb(36, 199, 153);
+        border-radius: 10px;
+        height:300px;
+        width:400px;
+        border: 4px solid rgb(0, 220, 84);
+        box-shadow: 2px 2px 4px 4px red;
+    }
+    #requestfream p{
+        padding-left: 40px;
+        color:rgb(255, 255, 255);
+    }
+    #reqsubmit{
+        width:100px;
+        height:30px;
+        float:right;
+    }
+    #contactlist{
+        height:350px;
+        width:890px;
+        padding-left:7px;
+        border-radius: 15px;
+    }
+    #call{
+        padding-top: 0px;
+        height: 320px;
+        overflow:auto;
+        /* position:relative; */
+    }
+    .divname{
+       top:0px;
+        position:sticky;
+        background: linear-gradient(100deg, hsla(158, 92%, 5%, 0.719),  crimson);
+        padding-left: 20px;
+        height:20px;
+        border-radius: 10px 10px;
+    }
+    .rimage{
+        height:40px;
+        width:40px;
+        border-radius:10px;
+    }
+    #rsubmit{
+        color:black;
+        border-radius: 7px;
+        border:0.9px solid black;
+    }
+    #rsubmit1{
+        color:black;
+        border-radius: 7px;
+        border:0.9px solid black;
+    }
+    #rsubmit:hover{
+        background-color: green;
+        color:white;
+        width:130px;
+        border:none;
+        border-radius: 10px;
+    }
+    #rsubmit1:hover{
+        background-color: rgb(246, 13, 13);
+        color:white;
+        width:130px;
+        border:none;
+        border-radius: 10px;
+    }
+    #requestpara{
+        font-size: 12px;
+        cursor: pointer;
+        font-weight: bolt;
+        color:black;
+    }
+    /* #strecknum{
+        display:none;
+    }
+    #strecknum .rimage:hover{
+        display:block;
+        cursor: pointer;
+    } */
+    pg{
+       background-color:chartreuse;
+    }
+    .chatting_button{
+        padding:7px 9px 7px 9px;
+        background-color: bisque;
+        text-decoration: none;
+        color:black;
+        border-radius: 10px;
+        border:1px solid black;
+    }
+    .chatting_button:hover{
+        background-color: green;
+        text-decoration:none;
+        cursor: pointer;
+        color:aliceblue;
+    }
+    #chatting_header{
+        padding:10px;
+        background-color: rgb(46, 204, 204);
+        text-align: center;
+        border:2px solid black;
+        border-radius:6px 9px 12px 15px;
+        opacity: 0.1px;
+        background: linear-gradient(100deg, white,black,crimson,crimson, black,white);
+        animation:cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    }
+    #alertmessage{
+        width:600px;
+        height:150px;
+        padding-top: 30px;
+        background-color: hsla(159, 96%, 48%, 0.719);
+        border:4px  solid rgb(194, 204, 155);
+        border-radius: 50%/50%;
+        color:rgb(235, 225, 225);
+        background: linear-gradient(100deg, hsla(158, 92%, 5%, 0.719),  crimson);
+    }
+    #alertboxcpage{
+        padding-top: 220px;
+    }
+    #chattinguserimage{
+        width: 110px;
+        height:50px;
+        float: left;
+        border-color: aqua;
+        border-radius:10px;
+        filter: brightness(180%);
+        cursor: pointer;
+    }
+    #persionid{
+        padding-top: 20px;
+        /* animation: anim 2.5s infinite ease-in-out; */
+        color:darkgrey
+    }
+    @keyframes anim {
+        0%{
+            background-position: 1 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 1 50%;
+        }
+    }
+    #chattinguserimage1{
+        width: 110px;
+        height:50px;
+        float: right;
+        border-color: aqua;
+        border-radius:10px;
+        filter: brightness(180%);
+        cursor: pointer;
+    }
+    #bpersionid{
+        float:left;
+        padding-top: 20px;
+        color:rgb(169, 215, 169);
+    }
+    body{
+        background: linear-gradient(100deg, hsla(158, 92%, 5%, 0.719),  crimson);
+        color:aliceblue;
+        height:100vh;
+    }
+    #buserpro{
+        display: none;
+    }
+    #buserprofile:hover #buserpro{
+        display: block;
+    }
+    .navprofile a{
+        color:whitesmoke;
+
+    }
+    #chatting_b_profile_image{
+        width: 110px;
+        height:50px;
+        border-color: aqua;
+        border-radius:10px;
+        filter: brightness(180%);
+        cursor: zoom-in;
+    }
+    #b_image{
+        padding-top: 120px;
+    }
+    #b{
+        color:black;
+
+    }
+    #buser_profile{
+        display:none;
+    }
+    .navprofile a:hover{
+        color:chartreuse;
+        cursor: pointer;
+    }
+    #back{
+        color:chartreuse;
+        cursor: pointer;
+    }
+    #zoomout{
+        width:500px;
+        border-radius: 15%;
+        cursor: zoom-out;
+        display:none;
+    }
+    #bigimage{
+        padding-left: 360px;
+        padding-top: 120px;
+        display: none;
+    }
+    #contact_list_inchatting{
+        /* border:2px solid rgb(8, 8, 8); */
+        width:320px;
+        height: 467px;
+        border-radius: 15px;
+        padding:10px;
+        background:linear-gradient(0.1deg, rgb(91, 106, 155), rgb(184, 215, 221));
+        overflow: auto;
+    }
+    #contact_list{
+        padding-top:10px;
+        padding-left:10px;
+    }
+    #contact_list p{
+        color:rgb(13, 13, 13);
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    #messagebox1{
+        border:3px solid black;
+        height: 390px;
+        width:930px;
+        border-radius: 15px;
+        background:linear-gradient(80deg, white, black);
+        overflow-y: auto;
+    }
+    #textbox{
+      resize: none;
+      color:black;
+      width:800px;
+      border-radius: 10px;
+      height: 60px;
+      border:2px solid black;
+      padding-left:20px;
+      padding-right:20px;
+    }
+    #textbox:focus{
+        border-color:2px rgb(5, 83, 160);
+    }
+    .form-group{
+        padding-top: 10px;
+    }
+    #sendbutton{
+        width:80px;
+        padding:20px;
+        color:black;
+        border: 1px solid black;
+        border-radius: 10%;
+    }
+    #message_span{
+        color:red;
+        display:none;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+   .message_div{
+        margin:20px;
+        position:relative;
+        background: linear-gradient(90deg, rgb(219, 194, 227),  rgb(147, 75, 171));
+        padding:9px;
+        word-break: break-all;
+        max-width:400px;
+        border-bottom: 30px;
+        border-top:20px;
+        border-radius: 20px 20px 0px 20px;
+        right:0;
+        margin-left:auto;
+    }
+    .message_div p, .message_time{
+        margin-left: 10px;
+    }
+    .message_div1 p ,.message_time1{
+        margin-left: 10px;
+    }
+    .message_time{
+        text-align: right;
+        /* position:absolute; */
+        color: blanchedalmond;
+        font-size: 1em;
+    }
+    .message_div1{
+        margin:20px;
+        position:relative;
+        background: linear-gradient(90deg, rgb(147, 75, 171), rgb(147, 75, 171), white);
+        padding:9px;
+        word-break: break-all;
+        max-width:300px;
+        border-bottom: 30px;
+        border-top:20px;
+        border-radius: 20px 20px 20px 0px;
+        right:0;
+        margin-right:auto;
+    }
+    .message_time1{
+        text-align: justify;
+        color: blanchedalmond;
+        font-size: 1em;
+    }
+    .notifications{
+        position:relative;
+        margin-left:10px;
+        margin-top: 16px;
+        border-radius: 10px;
+        width:300px;
+        background:linear-gradient(100deg,rgb(195, 104, 213), gray);
+        display:none;
+    }
+    .notifications:nth-child(even){
+       
+        background:linear-gradient(100deg,rgb(224, 173, 234), rgb(183, 176, 176));
+    }
+    .notifications1{
+        position:relative;
+    }
+    #cancal{
+        position:absolute;
+        right:0;
+        padding-right: 10px;
+        color:seashell;
+        cursor: pointer;
+        font-size: medium;
+    }
+    .notifications p{
+        margin-left: 10px;
+        padding-top:20px;
+        color:seashell;
+        word-break: break-all;
+    }
+    #notification_username{
+        position:absolute;
+        margin-left: 10px;
+        font-size: 0.7em;
+        cursor:pointer;
+    }
+    #notification_time{
+        margin-right: 10px;
+        font-size: 0.7em;
+        right:0;
+        position:absolute;
+        color:whitesmoke;
+    }
+    #total_message{
+        background-color: aqua;
+        max-width: 30px;
+        margin-left: 10px;
+        border-radius: 10px;
+        font-size: 1em
+    }
+}
