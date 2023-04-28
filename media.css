@@ -1,0 +1,20 @@
+@media screen and (max-width: 500px) and(min-width: 1000px) {
+ 
+  input[type="text"], input[type="password"], input[type="submit"], button{
+    width:40%;
+    height:10%;
+    padding:10px;
+    margin: 100px 0;
+    border:none;
+    background-color:seashell;
+}
+.backgroundimage{
+  background-image:url("mysite.jpg");
+  background-size:cover;
+  position:center;
+  height:100vh;
+  
+  background-repeat:no-repeat;
+}
+
+}
